@@ -1,6 +1,6 @@
 ﻿class OnTheGo {
     static main() {
-        ['txt', 'img'].forEach((mode) => {
+        ['txt'].forEach((mode) => {
             const it_btn = document.getElementById('interrogate')
             it_btn.parentElement.style.display = 'contents'
 
