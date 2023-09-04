@@ -10,7 +10,6 @@
             box.style.padding = '10px'
 
             const result = document.getElementById(mode + '2img_results')
-            result.parentNode.querySelector('.resize-handle').remove()
 
             const top_row = document.getElementById(mode + '2img_toprow')
             top_row.append(result)
