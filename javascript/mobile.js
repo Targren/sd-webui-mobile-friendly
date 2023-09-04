@@ -1,6 +1,6 @@
 ﻿class OnTheGo {
     static main() {
-        ['txt', 'img'].forEach((mode) => {
+        ['txt'].forEach((mode) => {
             const it_btn = document.getElementById('interrogate')
             it_btn.parentElement.style.display = 'contents'
 
@@ -9,8 +9,7 @@
             const box = generate_btn.parentElement
             box.style.padding = '10px'
 
-            const result = document.getElementById(mode + '2img_results')
-            result.parentNode.querySelector('.resize-handle').remove()
+            const result = document.getElementById(mode + '2img_results')            
 
             const top_row = document.getElementById(mode + '2img_toprow')
             top_row.append(result)
